@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2d47d9d-f9d1-48f5-a431-bb53b13cc761" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/locallibrary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="f2d47d9d-f9d1-48f5-a431-bb53b13cc761" name="Changes" comment="git commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LqenDp&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LqenDp/Practicalwork1.git&quot;,
+    &quot;accountId&quot;: &quot;51e0bc06-674f-40de-a580-840bebddf93f&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -57,7 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.VCS",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,8 +98,19 @@
       <option name="presentableId" value="Default" />
       <updated>1762830486552</updated>
       <workItem from="1762830492958" duration="6008000" />
-      <workItem from="1762839949365" duration="3634000" />
+      <workItem from="1762839949365" duration="4272000" />
+      <workItem from="1762911813501" duration="2540000" />
+      <workItem from="1762914546997" duration="689000" />
     </task>
+    <task id="LOCAL-00001" summary="git commit">
+      <option name="closed" value="true" />
+      <created>1762843737432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762843737432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit" />
   </component>
 </project>
