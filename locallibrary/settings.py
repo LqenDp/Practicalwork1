@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'catalog.apps.CatalogConfig',
-]
+    request.session['my_car']['wheels'] = 'alloy'
+]request.session.modified = True
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
