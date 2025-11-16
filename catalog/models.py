@@ -3,6 +3,8 @@ from django.db import models
 from django.contrib.auth.models import User
 
 from datetime import date
+
+
 # Create your models here.
 class Genre(models.Model):
     """
@@ -74,13 +76,6 @@ class BookInstance(models.Model):
 
     status = models.CharField(max_length=1, choices=LOAN_STATUS, blank=True, default='m', help_text='Book availability')
 
-    class Meta:
-        ordering = ["due_back"]
-        permissions = (
-            ("can_mark_returned", "Set book as returned"),
-        )
-
-
     def __str__(self):
         """
         String for representing the Model object
@@ -92,6 +87,12 @@ class BookInstance(models.Model):
         if self.due_back and date.today() > self.due_back:
             return True
         return False
+
+    class Meta:
+        ordering = ["due_back"]
+        permissions = [
+            ("can_mark_returned", "Can mark book as returned"),
+        ]
 class Author(models.Model):
     """
     Model representing an author.
