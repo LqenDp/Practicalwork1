@@ -11,7 +11,8 @@ import datetime
 from .forms import RenewBookForm
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
-from .models import Author
+from .models import Author, Book
+
 # Create your views here.
 def index(request):
     """
@@ -118,3 +119,18 @@ class AuthorUpdate(UpdateView):
 class AuthorDelete(DeleteView):
     model = Author
     success_url = reverse_lazy('authors')
+
+class BookCreate(CreateView):
+    model = Book
+    fields = ['title', 'author', 'summary', 'isbn', 'genre']
+    template_name = 'catalog/book_form.html'
+
+class BookUpdate(UpdateView):
+    model = Book
+    fields = ['title', 'author', 'summary', 'isbn', 'genre']
+    template_name = 'catalog/book_form.html'
+
+class BookDelete(DeleteView):
+    model = Book
+    success_url = reverse_lazy('books')
+    template_name = 'catalog/book_confirm_delete.html'
